@@ -8,23 +8,12 @@
     <meta name="description" content="The 49th Prague International Tournament Korean Ambassador Cup">
     <meta name="author" content="Pagoda">
 
+
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
     <link href="style.css" rel="stylesheet">
 
     <title>Hrací místo a ubytování</title>
-    <script src="https://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAAuPsJpk3MBtDpJ4G8cqBnjRRaGTYH6UMl8mADNa0YKuWNNa8VNxQCzVBXTx2DYyXGsTOxpWhvIG7Djw" type="text/javascript"></script>
-    <script type="text/javascript">
-        function initialize() {
-          if (GBrowserIsCompatible()) {
-            var map = new GMap2(document.getElementById("map_canvas"));
-            map.setCenter(new GLatLng(50.126714,14.486427), 16);
-
-            var point = new GLatLng(50.126796,14.485923);
-            map.addOverlay(new GMarker(point));
-          }
-        }
-    </script>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -100,7 +89,12 @@
             <p>
             Červeným <b>Metrem C</b> do stanice <b>Střížkov</b>, od níž je hotel vzdálen 3 minuty chůze, viz mapu.
             </p>
-            <div id="map_canvas" style="width: 500px; height: 300px"></div>
+
+        <img src="mapa.jpg" alt="Jak se dostat na hrací místo."></img>
+			<!--
+			<div id="mapa" style="width:500px; height:300px;"></div>
+			-->
+
         </div>
 
         <div class="col-md-6">
@@ -122,8 +116,6 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-
-
 
 </body>
 </html>
