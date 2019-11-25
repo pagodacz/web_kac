@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name="description" content="The 48th Prague International Tournament Korean Ambassador Cup">
+    <meta name="author" content="Pagoda">
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
+    <link href="style.css" rel="stylesheet">
+
+    <title>Site and Accomodation</title>
+    <script src="https://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAAuPsJpk3MBtDpJ4G8cqBnjRRaGTYH6UMl8mADNa0YKuWNNa8VNxQCzVBXTx2DYyXGsTOxpWhvIG7Djw" type="text/javascript"></script>
+    <script type="text/javascript">
+        function initialize() {
+          if (GBrowserIsCompatible()) {
+            var map = new GMap2(document.getElementById("map_canvas"));
+            map.setCenter(new GLatLng(50.126714,14.486427), 16);
+
+            var point = new GLatLng(50.126796,14.485923);
+            map.addOverlay(new GMarker(point));
+          }
+        }
+    </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body onload="initialize()" onunload="GUnload()">
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Korean Ambassador Cup 2019</a>
+        </div>
+        <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                 <li><a href="registration.html">Registration</a></li> 
+                <li><a href="details.html">Tournament Details and Schedule</a></li>
+                <li class="active"><a href="site_and_accommodation.html">Site and Accommodation</a></li>
+                <li ><a href="sponsors.html">Sponsors</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index_cz.html"><img src='cz.png'/> Česky</a></li>
+              </ul>
+        </div><!--/.navbar-collapse -->
+    </div> <!-- container -->
+    </div> <!-- navbar -->
+
+    <div class="container">
+        <div class="content-box">
+        <h1>The playing site</h1>
+        <p>
+        The tournament is taking place in the congress hall of the <a href="http://duo.hotel.cz/">Hotel Duo</a>,
+        as shown in the <a href="#howtogetthere">map below</a>.
+        </p>
+
+        <h1>Restaurant</h1>
+        <p>
+        For the saturday's lunch, the organizers reccommend the restaurant Bella, located aproximately 5min. walking distance from the playing site.
+        See the <a href="#howtogettorestaurant">map below on the right</a>.
+        </p>
+
+        <h1>Accomodation</h1>
+        <p>The options are listed in the table below. Please, do not hesitate to
+        <a href="contact.html">Contact us</a> if you needed any assistence.</p>
+<table class="table table-striped">
+    <tr>
+      <td><b>Type</b></td>
+      <td><b>Location</b></td>
+      <td><b>Expences</b></td>
+    </tr>
+    <tr>
+      <td><a href="http://duo.hotel.cz/">Hotel Duo****</a></td>
+      <td>On Site</td>
+      <td>Around 50 EUR for double bed</td>
+    </tr>
+    <tr>
+      <!--
+<td><a href="http://hostelprahaladvi.cz/index.php?obsah=services&jazyk=en" target="_blank">Hostel Ládví</a></td>
+	-->
+      <td><a href="https://www.aohostels.com/en/prague/" target="_blank">A&O Hostel and Hotel</a></td>
+      <td>Close to the Site</td>
+      <td>Dorm around 10 EUR, double room around 25 EUR</td>
+    </tr>
+  </table>
+  <div class="row">
+      <div class="col-md-6">
+        <h2 id="howtogetthere">How to get to the Site</h2>
+        <p>
+        You have to take the <b>Red Metro C</b> (underground line), to the station <b>Střížkov</b>.
+        The Hotel is a 3 minutes walk from there, as shown in the following map:
+
+        </p>
+
+        <div id="map_canvas" style="width: 500px; height: 300px"></div>
+        </div>
+
+        <div class="col-md-6">
+        <h2 id="howtogettorestaurant">How to get to the restaurant Bella</h2>
+            <p>
+            5 min walking distance, as in:
+            </p>
+        <img src="rest.jpeg" alt="Cesta do restaurace Bella"></img>
+        </div>
+</div>
+
+
+        </div>
+      <hr>
+      <footer>
+      <p>Created by <a href="http://j2m.cz/~jm/">JM</a>, 2019.</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+
+
+</body>
+</html>

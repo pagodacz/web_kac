@@ -1,0 +1,145 @@
+.jumbotron {
+    color: white;
+
+    background-image: url("./fotky/57-goban2.jpg");
+    background-size: cover;
+}
+.navbar{
+    text:white;
+     background:transparent; 
+    border-color:transparent;
+    /*
+    font-variant: small-caps;
+    background-color:#337ab7;
+    border-color:#337ab7;
+
+	2016: 
+    background-color:#49abff;
+    border-color:#49abff;
+
+     */
+    background-color:#000;
+    border-color:#000;
+}
+img {
+        max-width: 100%;
+            max-height: 100%;
+        }
+body, footer {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-weight:300;
+}
+h2 {
+    font-weight:300;
+}
+h1 > b {
+    font-weight:400;
+}
+h2 > b {
+    font-weight:400;
+}
+h1 > .smallmain{
+    font-weight:300;
+    color : white;
+}
+.jumbotron{
+    margin-top:0px;
+    padding-top:0px;
+}
+.btn {
+    /*
+    font-variant: small-caps;
+    text-transform: uppercase;
+    */
+}
+.btn-primary {
+    background:transparent;
+    border-color:#000;
+}
+
+.btn-info {
+    background:transparent;
+    border-color:#000;
+    color:#000;
+}
+
+.btn-primary.active,.btn-primary.focus,.btn-primary:active,.btn-primary:focus,.btn-primary:hover,.open>.dropdown-toggle.btn-primary
+{
+    border-color:#000;
+    background-color:#000;
+}
+.btn-info.active,.btn-info.focus,.btn-info:active,.btn-info:focus,.btn-info:hover,.open>.dropdown-toggle.btn-info
+{
+    border-color:#000;
+    background-color:#000;
+    color:white;
+}
+/*=================================*/
+.imgsmall {
+    /*
+    margin:0px;
+    padding:0px;
+    height:100%;
+    */
+}
+.navbar{
+    /*
+    font-variant: small-caps;
+    font-weight: bold;
+    */
+    margin-bottom:0px;
+}
+
+.navbar-default .navbar-brand {
+    /*
+    font-variant: small-caps;
+    font-weight: bold;
+    */
+    font-size: 120%;
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  background-color: white;
+  color: #000;
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  background-color: white;
+  color: #000;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background-color: #ffffff;
+  color: #000;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  background-color: #ffffff;
+  color: #000;
+}
+.navbar-default .navbar-toggle {
+  border-color: #000;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #000;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffffff;
+}
+
